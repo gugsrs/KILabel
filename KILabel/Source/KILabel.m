@@ -247,7 +247,7 @@ NSString * const KILabelLinkKey = @"link";
     
     if (!attributes)
     {
-        attributes = @{NSForegroundColorAttributeName : self.tintColor};
+		attributes = @{NSForegroundColorAttributeName : self.tintColor, NSFontAttributeName: [UIFont boldSystemFontOfSize:14.0]};
     }
     
     return attributes;
